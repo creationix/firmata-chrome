@@ -1,0 +1,15 @@
+{
+  "name": "ardiuno",
+  "version": "0.1.0",
+  "manifest_version": 2,
+  "offline_enabled": true,
+  "description": "Test talking to arduino over serialport",
+  "app": {
+    "background": {
+      "scripts": ["background.js"]
+    }
+  },
+  "permissions": [
+    "serial"
+  ]
+}
